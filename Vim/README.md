@@ -21,7 +21,7 @@ cp .vimrc ~/.vimrc
 ```
 cp plugins.vim ~/.vim/plugins.vim
 ```
-Then you'll want to hop inside of vim. And precede to run the following commands:
+Then you'll need to source your vimrc, and install those plugins.
 ```
 :source ~/.vimrc
 ```
@@ -30,5 +30,3 @@ Then you'll want to hop inside of vim. And precede to run the following commands
 ```
 
 Once you restart vim you are off to the races!
-
-If you find any issues with this configuration, or have suggestions please feel free to reach out to me on [Twitter](https://twitter.com/StrangeNectar)!
